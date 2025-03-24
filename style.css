@@ -56,6 +56,7 @@ ul {
 .image-container {
   display: flex;
   gap: 30px;
+  padding-bottom: 50px;
 }
 
 .info {
@@ -72,17 +73,34 @@ ul {
   align-items: center;
 }
 
+.quote-text {
+  padding: 0 120px;
+}
 .quote-author {
-  align-self: flex-end;
+  text-align: right;
+  width: 100%;
   padding-top: 20px;
 }
 
-.signup-container {
+.bottom-container {
   background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+}
+
+.signup-container {
+  display: flex;
+  align-items: center;
+  background-color: rgb(97, 97, 240);
+  gap: 200px;
+  padding: 25px 75px;
+  margin: 20px 50px;
 }
 
 .signup-text-container {
   display: flex;
+  flex-direction: column;
 }
 
 .footer {
@@ -90,4 +108,7 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 10px;
+  margin-top: auto;
+  padding: 30px 0;
 }
