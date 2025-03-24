@@ -49,6 +49,10 @@ ul {
   padding: 25px 0;
 }
 
+.info-text {
+  padding-bottom: 20px;
+}
+
 .image-container {
   display: flex;
   gap: 30px;
