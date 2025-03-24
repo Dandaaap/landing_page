@@ -12,7 +12,7 @@ body > div {
 }
 
 .header {
-  background-color: aqua;
+  background-color: #1f2937;
   display: flex;
   flex-direction: column;
 }
@@ -20,11 +20,13 @@ body > div {
 .logo-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .right-links {
   display: flex;
   gap: 16px;
+  color: #e5e7eb;
 }
 
 ul {
@@ -34,6 +36,9 @@ ul {
 .header-container {
   display: flex;
   padding: 50px 0;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
 }
 
 .bold-text,
@@ -42,7 +47,7 @@ ul {
 }
 
 .info-container {
-  background-color: beige;
+  background-color: #f9faf8;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -51,6 +56,9 @@ ul {
 
 .info-text {
   padding-bottom: 20px;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
 }
 
 .image-container {
@@ -65,8 +73,13 @@ ul {
   align-items: center;
 }
 
+.img-info {
+  margin-bottom: 10px;
+  border: 2px solid #3882f6;
+  border-radius: 15px;
+}
 .quote-container {
-  background-color: rgb(83, 189, 189);
+  background-color: #e5e7eb;
   display: flex;
   flex-direction: column;
   padding: 50px 200px;
@@ -74,16 +87,22 @@ ul {
 }
 
 .quote-text {
-  padding: 0 120px;
+  padding: 0 20px;
+  font-size: 36px;
+  font-family: light italic;
+  color: #1f2937;
 }
 .quote-author {
   text-align: right;
   width: 100%;
   padding-top: 20px;
+  font-size: 36px;
+  font-family: light italic;
+  color: #1f2937;
 }
 
 .bottom-container {
-  background-color: antiquewhite;
+  background-color: #e5e7eb;
   display: flex;
   justify-content: center;
   padding: 50px 0;
@@ -92,10 +111,16 @@ ul {
 .signup-container {
   display: flex;
   align-items: center;
-  background-color: rgb(97, 97, 240);
+  background-color: #3882f6;
   gap: 200px;
   padding: 25px 75px;
   margin: 20px 50px;
+  color: #e5e7eb;
+}
+
+.action-text {
+  font-weight: 900;
+  font-size: 20px;
 }
 
 .signup-text-container {
@@ -104,11 +129,36 @@ ul {
 }
 
 .footer {
-  background-color: gray;
+  background-color: #1f2937;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 10px;
-  margin-top: auto;
   padding: 30px 0;
+  color: #e5e7eb;
+}
+
+.bold-text {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.description {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+button {
+  color: #f9faf8;
+  background-color: #3882f6;
+  border-radius: 5px;
+  border-color: #3882f6;
+  font-weight: 900;
+  padding: 5px 10px;
 }
