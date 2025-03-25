@@ -4,6 +4,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
   font-family: Roboto, sans-serif;
+  background-color: #f9faf8;
 }
 
 body > div {
@@ -71,6 +72,8 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-width: 180px;
+  justify-content: center;
 }
 
 .img-info {
@@ -82,8 +85,16 @@ ul {
   background-color: #e5e7eb;
   display: flex;
   flex-direction: column;
-  padding: 50px 200px;
+  padding: 50px 20px;
   align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+.quote-text,
+.quote-author {
+  max-width: 800px; /* Restrict text width */
+  width: 100%;
 }
 
 .quote-text {
@@ -93,16 +104,16 @@ ul {
   color: #1f2937;
 }
 .quote-author {
-  text-align: right;
-  width: 100%;
   padding-top: 20px;
   font-size: 36px;
   font-family: light italic;
   color: #1f2937;
+  font-weight: 900;
+  text-align: right;
 }
 
 .bottom-container {
-  background-color: #e5e7eb;
+  background-color: #f9faf8;
   display: flex;
   justify-content: center;
   padding: 50px 0;
@@ -116,6 +127,7 @@ ul {
   padding: 25px 75px;
   margin: 20px 50px;
   color: #e5e7eb;
+  border-radius: 5px;
 }
 
 .action-text {
@@ -136,6 +148,7 @@ ul {
   padding: 10px;
   padding: 30px 0;
   color: #e5e7eb;
+  margin-top: auto;
 }
 
 .bold-text {
@@ -152,13 +165,22 @@ ul {
 .logo {
   font-size: 24px;
   color: #f9faf8;
+  font-weight: 900;
 }
 
 button {
   color: #f9faf8;
   background-color: #3882f6;
-  border-radius: 5px;
+  border-radius: 10px;
   border-color: #3882f6;
   font-weight: 900;
-  padding: 5px 10px;
+  padding: 6px 15px;
+}
+
+.signup-button {
+  border: 2px solid #f9faf8;
+}
+
+.img-text {
+  text-align: center;
 }
