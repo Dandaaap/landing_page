@@ -184,3 +184,12 @@ button {
 .img-text {
   text-align: center;
 }
+
+button:active {
+  background-color: #2563eb; /* Darker blue when clicked */
+  transform: scale(0.98); /* Slight press effect */
+}
+
+.signup-button:active {
+  border-color: #e5e7eb; /* Lighten border when clicked */
+}
